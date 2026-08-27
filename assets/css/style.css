@@ -18,4 +18,29 @@ p{
     font-weight: bold;
     font-size: large;
     
+} 
+
+
+.sub2{
+      font-family:"Space Grotesk";
+      font-size:large ;
+      font-weight: bold;
+
+}
+
+
+#reileao {
+    background-color: blanchedalmond;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+#viagem{
+     background-color: lightblue;
+    padding-left: 16px;
+     padding-right: 16px;
+
+
 }
