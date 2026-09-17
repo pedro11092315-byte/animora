@@ -11,8 +11,6 @@ h1 {
     background-color: lavender;
 }
 
-p{
-}
 
 .sub{
     font-weight: bold;
@@ -61,7 +59,49 @@ p{
     font-weight: bolder ;
 }
 
- 
+ #branco{
+       background-color: lavender;
+
+
+
+ }
+
+.sub4 {
+      font-family: "PT Serif";
+      font-size:large ;
+      font-weight: bold;
+
+
+}
+
+
+#akira{
+      background-color: rgb(255, 0, 0);
+      padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+
+
+.imagempequena{
+ height: 180px;
+ width: 124px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

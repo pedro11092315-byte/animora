@@ -11,36 +11,41 @@
 
 
 
+<form>
+   
 
 
 <section id="formulario">                                             
 <h2>Se comunique com nosco</h2>                                     
 <p>digite as informaçoes pedidas abaixo</p>                           
 
-</section>
+<section id="divido">
 
+    <div id="form">
 <form>
-<section id="branco">
+
+
+
+<section id="preto">
 <div class="form">
 <label for="nome">Seu nome</label>
 <input type="text" id="nome" name="nome" placeholder="escreva seu nome">
 </div>
-</section>
-
- <section id="preto">
-<div class="form">
-
-<label for="email">Seu email</label>
-<input type="email" id="email" name="email" placeholder="exemplo@gmail.com">
-</section>
-</div>
-
-
-
+</section> 
 
 
 <section id="branco">
-<div class="form"> 
+<div class="form">
+<label for="email">Seu email</label>
+<input type="email" id="email" name="email" placeholder="exemplo@gmail.com">
+</div>
+</section>
+
+   
+
+<form> 
+     <section id="preto">
+  <div class="form">
     <label for="assunto">Assunto</label>
      <select id="assunto" name="assunto">
       <option value="">Selecione uma opçao</option>
@@ -50,33 +55,32 @@
       <option value="parceria">Parceria</option>
      </select>
 
-     <img  src="./assets/img/erauma.webp" alt="Imagem">
 
-</div>
+    <div id="img">
+        <img src="assets/img/erauma.webp" alt="">
+    </div>
+
 </section>
 
-<div class="form">
 
 
 
+</form>
 
+<section id="branco">
 
-</div>
-
-
-
-
-
-
-
-
-<section id="preto">
-<div class="form">
+<div class="form">       
 <label for="mensagem">Mensagem</label>
-<textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
-</div>
+<textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" class="grande"></textarea>
 </section>
+
+   </div>
+
+
 </section>
+
+</form>
+
 
 <div .termo>
 <input type="checkbox" id="termo">
@@ -88,7 +92,8 @@
 
 
 <button type="submit">Enviar mensagem</button>
-</form>
+  
+
 
 
 
@@ -108,11 +113,32 @@
 
 <input type="radio" id="nao" name="abu" value="nao">
 <label for="nao">Nao</label>
+</section>
+
+
+  <div class="estrelas">
+        <span onclick="avaliar(1)">★</span>
+        <span onclick="avaliar(2)">★</span>
+        <span onclick="avaliar(3)">★</span>
+        <span onclick="avaliar(4)">★</span>
+        <span onclick="avaliar(5)">★</span>
+    </div>
+
+    <textarea id="mensagem" placeholder="Escreva seu feedback..."></textarea>
+
+    <button onclick="enviarFeedback()">Enviar feedback</button>
 
 
 
 
-</div>
+
+
+
+
+
+
+</form>
+
 
 
 
@@ -127,21 +153,10 @@
 
 
 <a href="index.html">voltar para home</a>
-</section>
+
 
 <a class="voltar" href="#top">voltar para a pagina</a>
 
-
-
-
-
-
-
-
-
-
-
-</section>
 
 
 
