@@ -29,66 +29,72 @@ h1 {
 
 #reileao {
     background-color: blanchedalmond;
+
     padding-left: 16px;
     padding-right: 16px;
+
+    border-radius: 10px;
 }
 
 
 
 #viagem{
      background-color: lightblue;
+
     padding-left: 16px;
      padding-right: 16px;
-
-
+     
+     border-radius: 10px;
 }
 
 
 
 #gigante{
-
     background-color: dimgrey;
+
     padding-left: 16px;
     padding-right: 16px;
 
-
+    border-radius: 10px;
 }
+
+
+
 .sub3{ 
     font-family: "Black Ops One";
     font-size: larger ;
     font-weight: bolder ;
 }
 
+
  #branco{
        background-color: lavender;
 
-
-
+        border-radius: 5px;
  }
+
 
 .sub4 {
       font-family: "PT Serif";
       font-size:large ;
       font-weight: bold;
-
-
 }
 
 
 #akira{
       background-color: rgb(255, 0, 0);
+
       padding-left: 16px;
-    padding-right: 16px;
+      padding-right: 16px;
 
+      border-radius: 10px;
 }
-
 
 
 
 .imagempequena{
  height: 180px;
  width: 124px;
-
 }
 
 
