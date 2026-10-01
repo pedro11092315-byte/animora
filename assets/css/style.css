@@ -5,17 +5,26 @@ body{
     background-color: darksalmon;
 }
 
+
+
+
+
+
+
+
+
 h1 {
     text-align: center;
     font-family:"Playwrite DE LA Guides" ;
+
     background-color: lavender;
 }
 
 
 .sub{
     font-weight: bold;
-    font-size: large;
-    
+    font-size: large; 
+    padding-left: 12px;
 } 
 
 
@@ -23,7 +32,6 @@ h1 {
       font-family:"Space Grotesk";
       font-size:large ;
       font-weight: bold;
-
 }
 
 
@@ -90,17 +98,21 @@ h1 {
       border-radius: 10px;
 }
 
-
-
-.imagempequena{
- height: 180px;
- width: 124px;
+img {
+     max-width: 20%;
+     height: auto;
 }
 
 
+section{
+     margin-bottom: 30px;
+ 
+}
 
-
-
+@media (max-width: 768px) {
+    
+}
+  
 
 
 

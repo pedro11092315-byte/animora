@@ -5,21 +5,16 @@ body{
  
 
 .form {
-    display: flex;
+     display: flex;
      justify-content: space-between;
-    flex-direction: column;
-
-    padding: 2px;
-    padding-left: 16px;
-
-
+     flex-direction: column;
 }
 
 
 .termo{
-    display: flex;
-   flex-direction: row; 
-    gap: 8px;
+        display: flex;
+     flex-direction: row; 
+        gap: 8px;
 }
 
 
@@ -68,6 +63,9 @@ body{
 
 }
 
+section{
+     margin-bottom: 12px;
+}
 
 
 
