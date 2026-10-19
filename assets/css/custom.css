@@ -1,0 +1,14 @@
+.card{
+     border-color: #d39e00;
+     --bs-card-bg: #ffffff;
+
+     border-width: 3px;
+}
+
+.texto-marrom {
+  color: #5f1022;
+}
+
+.texto-vermelho{
+     color: red;
+}
