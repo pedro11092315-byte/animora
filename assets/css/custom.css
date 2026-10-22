@@ -10,5 +10,13 @@
 }
 
 .texto-vermelho{
-     color: red;
+  color: red;
+}
+
+.texto-branco{
+     color: #ffffff;
+}
+
+img {
+    height: auto;
 }
