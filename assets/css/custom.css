@@ -3,6 +3,7 @@
      --bs-card-bg: #ffffff;
 
      border-width: 3px;
+
 }
 
 .texto-marrom {
@@ -17,6 +18,11 @@
      color: #ffffff;
 }
 
-img {
-    height: auto;
+.containernavbar{
+  background-color: lavender;
+
+  margin-left: 24px;
+  margin-right: 24px;
+
+  border-radius: 10px;
 }
