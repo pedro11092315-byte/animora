@@ -1,8 +1,8 @@
 nome = input('qual o seu nome ')
 
-print('ola', nome, '! bem vindo')
+print(f'ola {nome}! bem vindo')
 
 num1 = int(input('primeiro numero'))
 num2 = int(input('segundo numero'))
 
-print('resultado' , num1+num2)
+print(f'resultado: {num1+num2}') 
